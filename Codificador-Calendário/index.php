@@ -11,7 +11,7 @@ while ($posicaodonumero < 31) {
     $posicaodonumero = $posicaodonumero + 1; // Para o sistema não ficar em loop. 
 }
 
-$escolherodia = 26; // Caso coloque um número que não esteja dentro de 1 a 31, ele não vai validar.
+$escolherodia = 10; // Caso coloque um número que não esteja dentro de 1 a 31, ele não vai validar.
 
 if ($escolherodia >= 1) { // Validação se for o número 0 ou menor que 0. 
     if ($escolherodia <= 31) { // Para o número máximo ser 31 e não validar número maior que 31.
@@ -23,3 +23,4 @@ if ($escolherodia >= 1) { // Validação se for o número 0 ou menor que 0.
 } else {
     echo "Esse dia está inválido.";
 }
+?>
