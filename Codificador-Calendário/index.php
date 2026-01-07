@@ -8,7 +8,7 @@ $posicaodonumero = 0;
 while ($posicaodonumero < 31) {
     echo $calendario [$posicaodonumero];
     echo " "; // Aqui pra fazer a separação e dar espaço nos números do dia que foi escolhido.
-    $posicaodonumero = $posicaodonumero + 1; // Para o sistema não ficar em loop. 
+    $posicaodonumero = $posicaodonumero + 1; // Para o sistema fazer a contagem de cada número e que permaneça na ordem das numerações, permitindo colocar qualquer número de 1 a 31 aleatoriamente sem interromper.
 }
 
 $escolherodia = 10; // Caso coloque um número que não esteja dentro de 1 a 31, ele não vai validar.
