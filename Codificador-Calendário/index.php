@@ -4,7 +4,7 @@ for ($numero = 1; $numero <= 31; $numero = $numero + 1) { // Utilizei o for pra 
     $calendario[] = $numero; // Criação de toda a lista com os números.
 }
 
-$posicao = 0;
+$posicaodonumero = 0;
 while ($posicaodonumero < 31) {
     echo $calendario [$posicaodonumero];
     echo " "; // Aqui pra fazer a separação e dar espaço nos números do dia que foi escolhido.
